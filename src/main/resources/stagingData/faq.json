@@ -1,0 +1,20 @@
+{
+  "resource-url": "/mdm/service/get-faq-list",
+
+  "validFaqBody": {
+    "startIndex": 0,
+    "size": 1000
+  },
+  "invalidStartIndex": {
+    "startIndex": "",
+    "size": 1000
+  },
+  "invalidEmptySize" : {
+    "startIndex": "0",
+    "size": ""
+  },
+  "EmptySizeAndIndex" : {
+    "startIndex": "",
+    "size": ""
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="UVerify" parallel="tests" thread-count="25">
+	<parameter name="groupReport" value="/BaseServices.html" />
+	<parameter name="toMails" value="soli@seamfix.com" />
+	<parameter name="dataEnv" value="stagingData" />
+	<parameter name="server" value="remote-jenkins" />
+	<parameter name="url" value="https://stagingcloudapp.verified.ng" />
+
+	<!--<test name="SingleFullDetails" preserve-order="true">-->
+		<!--<classes>-->
+			<!--<class name="services.FaQ" />-->
+		<!--</classes>-->
+	<!--</test>-->
+	<test name="FeedBack Survey" preserve-order="true">
+		<classes>
+			<class name="services.FeedbackSurvey" />
+		</classes>
+	</test>
+
+
+
+</suite>

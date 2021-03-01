@@ -1,0 +1,31 @@
+{
+  "resource-url": "/mdm/service/retrieve-survey-questions",
+  "resource-url2" : "/mdm/service/submit-survey-responses",
+  "validFeedback": {
+    "userEmail":"viloh@seamfix.com"
+  },
+  "emptyEmail" : {
+    "userEmail":""
+  },
+
+"validSurveyResponse":{
+  "userEmail": "viloh@seamfix.com",
+  "surveyResponses": [
+    {
+      "feedbackId": 6216172,
+      "metricScore": 2,
+      "feedbackComment" : "Not satisfied"
+    }
+  ]
+},
+  "emptyEmailSurveyResponse": {
+    "userEmail": "",
+    "surveyResponses": [
+      {
+        "feedbackId": 6216172,
+        "metricScore": 2,
+        "feedbackComment" : "Not satisfied"
+      }
+    ]
+  }
+}
